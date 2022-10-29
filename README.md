@@ -8,13 +8,13 @@
 
 # 1. 功能
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029151731183.png)
+![](/src/assets/mdImages/image-20221029151731183.png)
 
 ### 开发模式
 
 > 电商后台管理系统整体采用前后端分离的开发模式,其中前端项目是基于Vue技术栈的SPA项目
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029151842605.png)
+![](/src/assets/mdImages/image-20221029151842605.png)
 
 ### 技术选型
 
@@ -35,7 +35,7 @@
 
 系统用户列表
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152311633.png)
+![](/src/assets/mdImages/image-20221029152311633.png)
 
 ### 权限管理
 
@@ -45,15 +45,15 @@
 
 系统中角色列表。可以新增、编辑、删除、为角色分配权限。
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152514352.png)
+![](/src/assets/mdImages/image-20221029152514352.png)
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152548144.png)
+![](/src/assets/mdImages/image-20221029152548144.png)
 
 #### 权限列表
 
 当前系统可以操作的权限。
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152604215.png)
+![](/src/assets/mdImages/image-20221029152604215.png)
 
 ### 商品管理
 
@@ -61,19 +61,19 @@
 
 所有商品的列表。可以添加、编辑、删除商品。
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152634309.png)
+![](/src/assets/mdImages/image-20221029152634309.png)
 
 #### 商品分类
 
 商品分类用于在购物时，快速找到需要购买的商品，进行直观显示。
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152702919.png)
+![](/src/assets/mdImages/image-20221029152702919.png)
 
 ### 订单管理
 
 订单管理均为mockjs模拟的数据
 
-![](C:\Users\Administrator\Desktop\电商管理\background-manage-system\src\assets\mdImages\image-20221029152721261.png)
+![](/src/assets/mdImages/image-20221029152721261.png)
 
 # 2. 技术问题
 
