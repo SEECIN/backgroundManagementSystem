@@ -128,12 +128,16 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  //获取本地token
   const token = store.get(process.env.VUE_APP_USER_INFO)?.token
+  //获取角色权限
   const roleAuth = store.get(process.env.VUE_APP_USER_INFO)?.roleAuth
+  //已登录
   if (token) {
     if (to.path === "/login") {
       next('/')
     } else {
+      //刷新页面时路由会重置，所以要重新匹配路由
       if (Store.state.permission.permissionRoutes.length === 0) {
         Store.dispatch("permission/comparisonAndSetUpRoutes", roleAuth)
         next({ path: to.path })
@@ -142,6 +146,7 @@ router.beforeEach((to, from, next) => {
       }
     }
   } else {
+    //未登录
     if (to.path !== "/login") next("/login")
     next()
   }
