@@ -7,7 +7,7 @@ import { resetRouter } from "@/util/resetRouter"
 import NProgress from 'nprogress'
 //axios默认值
 const instance = axios.create({
-  baseURL: "/api",
+  baseURL: process.env.VUE_APP_BASE_URL,
   timeout: process.env.VUE_APP_TIME_OUT
 })
 
