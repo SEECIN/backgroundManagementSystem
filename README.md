@@ -37,6 +37,8 @@
 
 ![](/src/assets/mdImages/image-20221029152311633.png)
 
+![](/src/assets/mdImages/image-20221030161422958.png)
+
 ### 权限管理
 
 通过权限管理模块控制不同的用户可以进行哪些操作，具体可以通过角色的方式进行控制，即每个用户分配一个特定的角色，角色包括不同的功能权限。
@@ -63,11 +65,15 @@
 
 ![](/src/assets/mdImages/image-20221029152634309.png)
 
+![](/src/assets/mdImages/image-20221030161525813.png)
+
 #### 商品分类
 
 商品分类用于在购物时，快速找到需要购买的商品，进行直观显示。
 
 ![](/src/assets/mdImages/image-20221029152702919.png)
+
+![](/src/assets/mdImages/image-20221030161700591.png)
 
 ### 订单管理
 
